@@ -1,2 +1,2 @@
 # CDSon
-Characteristic Sonification
+Characteristic Direct Sonification
