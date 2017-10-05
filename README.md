@@ -1,4 +1,4 @@
-# DSSon --- Direct Segmented Sonification
+# DSSon &mdash; Direct Segmented Sonification
 
 In sonification and audification, signals, data sets, or selected features of data sets, are mapped to audio signals to create an auditory display of the data. Audification translates the the original signal’s data points into digital audio samples and the length of the resultant auditory display is determined by the playback rate. 
 
