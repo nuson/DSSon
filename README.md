@@ -51,6 +51,7 @@ Using a data stream segmentation derived from domain-specific knowledge and a mo
 
 
 &ast;Models: M1 = basic model; M2 = individual target range model; M3 = advanced model
+
 &ast;Data files used: user A, novice = DA1; user A, experienced = DA2; user B, novice = DB1 
 
 
