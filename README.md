@@ -25,12 +25,14 @@ Using a data stream segmentation derived from domain-specific knowledge and a mo
 │       ├── DA2.txt
 │       └── DB1.txt
 ├── examples - the sonifications of the files in data/txt using the MATLAB DSSon scripts
-│   ├── DSSON_ADV_B.wav
-│   ├── DSSON_Basic_A_e.wav
-│   ├── DSSON_Basic_A_n.wav
-│   ├── DSSON_Basic_B.wav
-│   ├── DSSON_ITR_A_e.wav
-│   └── DSSON_ITR_B.wav
+│   ├── DSSon_ADV_A_e.wav
+│   ├── DSSon_ADV_A_n.wav
+│   ├── DSSon_ADV_B.wav
+│   ├── DSSon_Basic_A_e.wav
+│   ├── DSSon_Basic_A_n.wav
+│   ├── DSSon_Basic_B.wav
+│   ├── DSSon_ITR_A_e.wav
+│   └── DSSon_ITR_B.wav
 └── src - DSSon MATLAB scripts and the Python script to audify the data files
     ├── DSSon_ADV_Model.m
     ├── DSSon_Basic_Model.m
@@ -45,8 +47,9 @@ Using a data stream segmentation derived from domain-specific knowledge and a mo
 | 3 `examples/DSSon_Basic_B.wav` | M1, user B &mdash; novice |
 | 4 `examples/DSSON_ITR_A_e.wav` | M2, user A &mdash; experienced |
 | 5 `examples/DSSON_ITR_B.wav` | M2, user B &mdash; novice |
-| 6 `examples/DSSon_ADV_A_e.wav` | M3, user A &mdash; experienced |
-| 7 `examples/DSSON_ADV_B.wav` | M3, user B &mdash; novice | 
+| 6 `examples/DSSon_ADV_A_n.wav` | M3, user A &mdash; novice |
+| 7 `examples/DSSon_ADV_A_e.wav` | M3, user A &mdash; experienced |
+| 8 `examples/DSSON_ADV_B.wav` | M3, user B &mdash; novice | 
 
 
 

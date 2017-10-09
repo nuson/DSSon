@@ -45,17 +45,20 @@ for sound=1:3
     switch sound
         case 1
             wav_name='DSSon_ADV_A_e.wav';
-            dd=wavread('DA2.wav');
+            %dd=wavread('DA2.wav'); % - MATLAB 2011 syntax
+            dd=audioread('DA2.wav');
             fs_data=100;
             d=resample(dd,fs,fs_data*kappa)*2; %the factor of 2 is due to our coding of the frequency values in the wav-file
         case 2
             wav_name='DSSon_ADV_B.wav';
-            dd=wavread('DB1.wav');
+            %dd=wavread('DB1.wav'); % - MATLAB 2011 syntax
+            dd=audioread('DB1.wav');
             fs_data=100;
             d=resample(dd,fs,fs_data*kappa)*2; %the factor of 2 is due to our coding of the frequency values in the wav-file
         case 3
             wav_name='DSSon_ADV_A_n.wav';
-            dd=wavread('DA1.wav');
+            %dd=wavread('DA1.wav'); % - MATLAB 2011 syntax
+            dd=audioread('DA1.wav');
             fs_data=100;
             d=resample(dd,fs,fs_data*kappa)*2; %the factor of 2 is due to our coding of the frequency values in the wav-file
     end
@@ -270,7 +273,8 @@ for sound=1:3
         end
         % END rich timbre
     end
-    wavwrite(0.7*out_file,fs,16,wav_name);
+    %wavwrite(0.7*out_file,fs,16,wav_name); % MATLAB 2011 syntax
+    audiowrite(wav_name, 0.7*out_file, fs);
     if plot_flag
         %wind=hanning(2048);
         % only for Chis ADV
