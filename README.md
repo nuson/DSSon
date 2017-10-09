@@ -48,8 +48,8 @@ Using a data stream segmentation derived from domain-specific knowledge and a mo
 | 6 `examples/DSSon_ADV_A_e.wav` | M3, user A &mdash; experienced |
 | 7 `examples/DSSON_ADV_B.wav` | M3, user B &mdash; novice | 
 |  |  |
-|Span <td colspan=2>Models: M1 = basic model; M2 = individual target range model; M3 = advanced model|
-|Span <td colspan=2>Data files used: user A, novice = DA1; user A, experienced = DA2; user B, novice = DB1 |
+|<td colspan=2>Models: M1 = basic model; M2 = individual target range model; M3 = advanced model
+|<td colspan=2>Data files used: user A, novice = DA1; user A, experienced = DA2; user B, novice = DB1 
 
 
 ## Running it 
