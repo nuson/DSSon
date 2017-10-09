@@ -24,6 +24,36 @@ script as follows:
 3. Once the audified files have been generated, the DSSon method can be applied using
 the MATLAB scripts in `src`.  
 
+## Contents of the repository
+```
+/ [root]    
+├── data
+│   ├── LabChart - the original LabChart data files
+│   │   ├── DA1.adicht
+│   │   ├── DA2.adicht
+│   │   └── DB1.adicht
+│   ├── audified - 44100 kHz audifications of the txt files in /data/txt
+│   │   ├── DA1.wav
+│   │   ├── DA2.wav
+│   │   └── DB1.wav
+│   └── txt - data files of regions extract from the LabChart files using LabChartView
+│       ├── DA1.txt
+│       ├── DA2.txt
+│       └── DB1.txt
+├── examples - the sonifications of the files in data/txt using the MATLAB DSSon scripts
+│   ├── DSSON_ADV_B.wav
+│   ├── DSSON_Basic_A_e.wav
+│   ├── DSSON_Basic_A_n.wav
+│   ├── DSSON_Basic_B.wav
+│   ├── DSSON_ITR_A_e.wav
+│   └── DSSON_ITR_B.wav
+└── src - DSSon MATLAB scripts and the Python script to audify the data files
+    ├── DSSon_ADV_Model.m
+    ├── DSSon_Basic_Model.m
+    ├── DSSon_ITR_Model.m
+    └── audifyFRED.py    
+```
+
 ## Authors  
 * [**Paul Vickers**](https://paulvickers.github.io)
 * [**Robert Höldrich**](http://iem.kug.ac.at/en/people.html?tx_kugpeople_pi1%5Bperson_nr%5D=50114&cHash=eb4d7486e953326e239071165ea47ccf)
