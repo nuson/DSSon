@@ -38,6 +38,20 @@ Using a data stream segmentation derived from domain-specific knowledge and a mo
     └── audifyFRED.py    
 ```
 
+| Audio File | Description |
+| ---------- | ----------- |
+| 1 `examples/DSSon_Basic_A_n.wav` | M1, user A &mdash; novice|
+| 2 `examples/DSSon_Basic_A_e.wav` | M1, user A &mdash; experienced |
+| 3 `examples/DSSon_Basic_B.wav` | M1, user B &mdash; novice |
+| 4 `examples/DSSON_ITR_A_e.wav` | M2, user A &mdash; experienced |
+| 5 `examples/DSSON_ITR_B.wav` | M2, user B &mdash; novice |
+| 6 `examples/DSSon_ADV_A_e.wav` | M3, user A &mdash; experienced "
+| 7 `examples/DSSON_ADV_B.wav` | M3, user B &mdash; novice | 
+| ---------- | ----------- |
+|Models: M1 = basic model; M2 = individual target range model; M3 = advanced model|
+|Data files used: user A, novice = DA1; user A, experienced = DA2; user B, novice = DB1 |
+
+
 ## Running it 
 1. The original data recorded by LabChart can be found as LabChart .adicht files in 
 the folder `data/LabChart`. Data can be extracted from these files by downloading and
