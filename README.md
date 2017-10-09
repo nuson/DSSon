@@ -39,7 +39,7 @@ Using a data stream segmentation derived from domain-specific knowledge and a mo
 ```
 
 | Audio File | Description |
-| ---------- | ----------- |
+| ------------- | --------------- |
 | 1 `examples/DSSon_Basic_A_n.wav` | M1, user A &mdash; novice|
 | 2 `examples/DSSon_Basic_A_e.wav` | M1, user A &mdash; experienced |
 | 3 `examples/DSSon_Basic_B.wav` | M1, user B &mdash; novice |
@@ -47,6 +47,9 @@ Using a data stream segmentation derived from domain-specific knowledge and a mo
 | 5 `examples/DSSON_ITR_B.wav` | M2, user B &mdash; novice |
 | 6 `examples/DSSon_ADV_A_e.wav` | M3, user A &mdash; experienced |
 | 7 `examples/DSSON_ADV_B.wav` | M3, user B &mdash; novice | 
+
+
+
 &ast;Models: M1 = basic model; M2 = individual target range model; M3 = advanced model
 &ast;Data files used: user A, novice = DA1; user A, experienced = DA2; user B, novice = DB1 
 
