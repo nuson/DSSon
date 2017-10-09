@@ -16,7 +16,7 @@ However, it has no export function so the data need to be resampled and then cop
 a text document and formatted from there.
 2. The folder `data/txt` contains text data files which are extracts of the .adicht files
 which have been sampled at 100 Hz and which were used as the basis for the audified versions
-found in `data/audified`. To generate the audified files, invoke the `sigProcFRED.py`
+found in `data/audified`. To generate the audified files, invoke the `audifyFRED.py`
 script as follows:
 
     `python audifyFRED.py -i user.txt -fs 100` where user.txt is the name of the input data file
