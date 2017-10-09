@@ -19,7 +19,7 @@ which have been sampled at 100 Hz and which were used as the basis for the audif
 found in `data/audified`. To generate the audified files, invoke the `sigProcFRED.py`
 script as follows:
 
-    `python sigprocFRED.py -i user.txt -fs 100`
+    `python audifyFRED.py -i user.txt -fs 100` where user.txt is the name of the input data file
 
 3. Once the audified files have been generated, the DSSon method can be applied using
 the MATLAB scripts in `src`.  
